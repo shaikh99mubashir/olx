@@ -1,0 +1,54 @@
+.upperpart{
+    /* height: 9em;  */
+    background-color: #f7f8f8;
+  }
+
+  #my{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+
+/* #country{
+    width: 200%;
+    height: 48px;
+} */
+#country {
+    width: 10vw;
+    height: 5vh;
+    margin: 0 10 0 10;
+    border-radius: 3px;
+}
+.btn2{
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.secondOne{
+    position: absolute;
+    top: 4rem;
+    margin-left: 30px;
+    font-weight: 700;
+    color: #002f34;
+    /* left: 5px; */
+
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  .inpbtn{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .shwinpbtn{
+    background-color: #f7f8f8;
+    border: none;
+    
+
+  }
